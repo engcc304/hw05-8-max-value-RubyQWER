@@ -22,10 +22,10 @@
 */
 #include <stdio.h>
 
-int main () {
+int main() {
 
     int n1,n2,n3 ;
-    //รับค่าตัวเลข
+    //รับค่า
     printf("Input 3 Number :\n") ;
     scanf("%d %d %d",&n1,&n2,&n3) ;
 
@@ -33,16 +33,14 @@ int main () {
     printf("2st Number = %d\n",n2) ;  
     printf("3st Number = %d\n",n3) ;
 
-    if(n1 > n2 && n1 > n3) {
-        printf("The 1rd Number is the greatest among three") ;
-    }
-    else if(n2 > n1 && n2 > n3) {
-        printf("The 2rd Number is the greatest among three") ;
-    }
-    else if(n3 > n2 && n3 > n1) {
-         printf("The 3rd Number is the greatest among three") ; 
-    }
-    else printf("Error") ;
-   
-    return 0 ;
-}
+    if(n1 > n2 && n1 > n3) 
+    printf("The 1rd Number is the greatest among three") ;
+
+    if(n2 > n1 && n2 > n3) 
+    printf("The 2rd Number is the greatest among three") ;
+
+    if(n3 > n2 && n3 > n1) 
+    printf("The 3rd Number is the greatest among three") ;
+
+    return 0;
+}//end function
