@@ -26,7 +26,7 @@ int main () {
 
     int n1,n2,n3 ;
     //รับค่าตัวเลข
-    printf("Input 3 Number : ") ;
+    printf("Input 3 Number :\n") ;
     scanf("%d %d %d",&n1,&n2,&n3) ;
 
     printf("1st Number = %d\n",n1) ;  
@@ -36,12 +36,13 @@ int main () {
     if(n1 > n2 && n1 > n3) {
         printf("The 1rd Number is the greatest among three") ;
     }
-    if(n2 > n1 && n2 > n3) {
+    else if(n2 > n1 && n2 > n3) {
         printf("The 2rd Number is the greatest among three") ;
     }
-    if(n3 > n2 && n3 > n1) {
+    else if(n3 > n2 && n3 > n1) {
          printf("The 3rd Number is the greatest among three") ; 
     }
+    else printf("Error") ;
    
     return 0 ;
 }
