@@ -22,11 +22,11 @@
 */
 #include <stdio.h>
 
-int main() {
-    
+int main () {
+
     int n1,n2,n3 ;
     //INPUT NUMBER
-    printf("Input Number [n1 n2 n3] :") ;
+    printf("Input 3 Number  :\n") ;
     scanf("%d %d %d",&n1,&n2,&n3) ;
 
     printf("1st Number = %d\n",n1) ;  
@@ -37,4 +37,4 @@ int main() {
     if(n3 > n2 && n3 > n1) printf("The 3rd Number is the greatest among three") ;
 
     return 0;
-}//end function
+}   //end function
